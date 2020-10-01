@@ -7,6 +7,9 @@ body{
     line-height: 2;
 }
 /*GLOBALES*/
+img{
+    max-width: 100%;
+}
 .contenedor{
     max-width: 120rem; /*= a 1200px*/
     margin: 0 auto;
@@ -83,4 +86,14 @@ h4{
 }
 .icono h3{
     text-transform: uppercase;
+}
+
+/*Anuncios*/
+.contenedor-anuncios{
+    display: flex;
+    justify-content: space-between;
+}
+
+.anuncio{
+    flex-basis: calc(33.3% - 1rem);
 }
